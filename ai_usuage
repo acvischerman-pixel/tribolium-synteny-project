@@ -1,0 +1,8 @@
+AI Use Log
+    Tool/model & version: Claude Sonnet 5.5
+    What I asked for:A Google colab notebook that Uses Diamond to perform a Syntenny analysis on my target annotated genome assemblies. 
+    Snippet of prompt(s): I want to run a syntenny analysis on Tribolium Maddens, Castaneum, Confusm, and Freemani in google colab. I have the annotated gtf files that I've prepare dmyself and I have their fasta files for genome assemblys. 
+    I want to Use dimaond for the reciprical best hits and then I want to take those hits and order them by chromsome number. I want the graphs to be easy to read and map out inversions between chromosomes. 
+    use tribolium Castaneum as the refrence for the anchoring genes. 
+    What I changed before committing:I had to change the tribolium genome assembly from Tcas 5.2 to ictricast1.1 
+    How I verified correctness (tests, sample data): I made sure that the code actually runs correctly in google colab, furthermore, i double checked the gene counts and contigs that the code outpued and compared with the NCBI stats and annotation stats. 
